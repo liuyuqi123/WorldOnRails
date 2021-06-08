@@ -15,15 +15,16 @@ import os
 import time
 
 import carla
+
 from srunner.scenariomanager.carla_data_provider import CarlaDataProvider
 
 from leaderboard.envs.sensor_interface import (
-    CallBack, 
-    StitchCameraReader, 
-    MapReader, 
-    OpenDriveMapReader, 
-    CollisionReader, 
-    SpeedometerReader, 
+    CallBack,
+    StitchCameraReader,
+    MapReader,
+    OpenDriveMapReader,
+    CollisionReader,
+    SpeedometerReader,
     SensorConfigurationInvalid
 )
 from leaderboard.autoagents.autonomous_agent import Track
